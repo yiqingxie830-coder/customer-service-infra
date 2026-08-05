@@ -1,0 +1,27 @@
+[project]
+name = "app-backend"
+version = "0.1.0"
+description = "FastAPI translation layer for the customer service LangGraph agent"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi>=0.115.0",
+    "langgraph-sdk>=0.4.2",
+    "pydantic>=2.0.0",
+    "uvicorn[standard]>=0.30.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

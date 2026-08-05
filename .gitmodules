@@ -1,0 +1,6 @@
+[submodule "customer-service-agent"]
+	path = customer-service-agent
+	url = https://github.com/yiqingxie830-coder/customer-service-agent.git
+[submodule "chat-board"]
+	path = chat-board
+	url = https://github.com/yiqingxie830-coder/chat-board.git

@@ -1,0 +1,49 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node / Vite
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+coverage/
+
+# Build outputs
+out/
+target/
+
+# Logs and local files
+*.log
+.DS_Store
+
+# Editor settings
+.idea/
+.vscode/
+
+# SQLite databases
+db/store.sqlite
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
